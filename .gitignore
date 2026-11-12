@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+._*
+
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+build/
+.next/
+
+# Local editor files
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
